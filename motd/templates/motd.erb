@@ -1,0 +1,10 @@
+<%= @message %>
+
+for i in one two three; do echo $i; done
+<% @my_array.each do |i| -%>
+<%= i %>
+<% end -%>
+
+<% if @is_virtual == 'true' -%>
+Virtualization: <%= @virtual %>
+<% end -%>
